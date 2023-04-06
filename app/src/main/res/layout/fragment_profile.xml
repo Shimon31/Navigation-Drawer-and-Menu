@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#8C55EE"
+    tools:context=".ProfileFragment">
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="This Is Profile Page"
+      android:textStyle="bold"
+      android:textSize="35sp"
+      android:textColor="@color/white"
+      android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+      android:gravity="center"/>
+
+    <Button
+        android:id="@+id/userBTn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="User"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        android:textStyle="bold"/>
+
+</LinearLayout>

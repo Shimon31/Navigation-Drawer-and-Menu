@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/signInFragment"
+        android:title="Sign In"
+        android:icon="@drawable/round_login_24"
+       />
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Home"
+        android:icon="@drawable/round_home_24"
+        />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:title="Profile"
+        android:icon="@drawable/profile_24"
+        />
+
+    <item
+        android:id="@+id/userFragment"
+        android:title="User"
+        android:icon="@drawable/round_user_circle_24"
+        />
+
+</menu>

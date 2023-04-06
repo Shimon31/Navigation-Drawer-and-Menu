@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#419AE1"
+    tools:context=".SignInFragment">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter User Name"
+        android:layout_margin="15dp"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        android:gravity="center"
+        android:inputType="text"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:layout_margin="15dp"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/loginBTN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Login"
+        android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
